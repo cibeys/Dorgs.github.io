@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.linktree {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.linktree .logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.linktree h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.linktree .links {
+  list-style: none;
+  padding: 0;
+}
+
+.linktree .links li {
+  margin-bottom: 10px;
+}
+
+.linktree .links li a {
+  display: block;
+  padding: 15px 30px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.linktree .links li a.active {
+  background-color: #ff0000;
+}
+
+body.dark-mode {
+  background-color: #222;
+}
+
+.linktree.dark-mode {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.linktree.dark-mode h1 {
+  color: #fff;
+}
+
+.linktree.dark-mode .links li a {
+  background-color: #666;
+  color: #fff;
+}
+
+.linktree.dark-mode .links li a.active {
+  background-color: #ff0000;
+}
